@@ -58,62 +58,29 @@ nav ul li a:hover {
    
     grid-row: 2/6;
     grid-column: 2/5;
+    /*background-color: #147ceb88;*/
 }
 
 .products-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    justify-items: center;
-    max-width: 60%;
+    justify-content: center;    
     margin: auto;
     padding: 20px;
+
 }
 
-.product {
-    background: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 100%;
-}
 
-.product img {
-    max-width: 100%;
-    border-radius: 5px;
-}
 
-.product h3 {
-    margin: 10px 0;
-    font-size: 20px;
-}
 
-.product p {
-    font-size: 18px;
-    color: #2958cf;
-    font-weight: bold;
-}
-
-.product button {
-    background: #2958cf;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.product button:hover {
-    background: #e6e92d;
-    color: #333;
-}
 
 /*----------------------------------------*/
 /*ASIDE*/
 
 .filters {
-    max-width: 20%;
+    max-width: 65%;
     min-width: 200px;
    
     padding: 20px;
