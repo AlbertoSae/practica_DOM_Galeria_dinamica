@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>PC Tienda</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="filters">
+        <article class="filter-category">
+            <h4>Categoría</h4>
+            <ul>
+                <li><label><input type="checkbox" name="category" value="portatil-gaming"> Portátiles Gaming</label></li>
+                <li><label><input type="checkbox" name="category" value="monitor"> Monitores</label></li>
+                <li><label><input type="checkbox" name="category" value="teclado"> Teclados</label></li>
+                <li><label><input type="checkbox" name="category" value="raton"> Ratones</label></li>
+                <li><label><input type="checkbox" name="category" value="tarjeta-grafica"> Tarjetas Gráficas</label></li>
+                <li><label><input type="checkbox" name="category" value="auriculares"> Auriculares</label></li>
+            </ul>
+        </article>
+        <article class="filter-price">
+            <h4>Precio</h4>
+            <label for="min-price">Mínimo</label>
+            <input type="number" id="min-price" name="min-price" placeholder="0" min="0">
+            
+            <label for="max-price">Máximo</label>
+            <input type="number" id="max-price" name="max-price" placeholder="1000" max="10000">
+        </article>
+        <article class="filter-rating">
+            <h4>Valoración</h4>
+        <label><input type="radio" name="rating" value="5"> ★★★★★</label><br>
+        <label><input type="radio" name="rating" value="4"> ★★★★☆</label><br>
+        <label><input type="radio" name="rating" value="3"> ★★★☆☆</label><br>
+        <label><input type="radio" name="rating" value="2"> ★★☆☆☆</label><br>
+        <label><input type="radio" name="rating" value="1"> ★☆☆☆☆</label><br>
+        </article>
+        <article class="filter-brand">
+            <h4>Marca</h4>
+            <ul>
+                <li><label><input type="checkbox" name="brand" value="pccomponenetes"> PcComponentes</label></li>
+                <li><label><input type="checkbox" name="brand" value="asus"> Asus</label></li>
+                <li><label><input type="checkbox" name="brand" value="msi"> MSI</label></li>
+                <li><label><input type="checkbox" name="brand" value="corsair"> Corsair</label></li>
+                <li><label><input type="checkbox" name="brand" value="logitech"> Logitech</label></li>
+            </ul>
+        </article>
+        <button class="apply-filters">Aplicar filtros</button>
+    </section>
+    <section class="products">
+        <h2>Productos Destacados</h2>
+        <article class="products-container">
+        
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PC Tienda - Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
