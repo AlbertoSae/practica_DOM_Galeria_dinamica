@@ -151,7 +151,7 @@ nav ul li a:hover {
 }
 
 /* Botón aplicar filtros */
-.apply-filters {
+.clean-filters {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -163,7 +163,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.apply-filters:hover {
+.clean-filters:hover {
     background-color: #0056b3;
 }
 
@@ -197,12 +197,12 @@ footer {
     }
     
     /* Botón aplicar filtros */
-    .apply-filters {
+    .clean-filters {
         width: 70%;
         grid-column: 4/5;
     }
     
-    .apply-filters:hover {
+    .clean-filters:hover {
         background-color: #0056b3;
     }
     
